@@ -4044,12 +4044,17 @@ GtkBubbleWindow .toolbar {
     border-radius: 10px 10px 0 0;
     border-width: 1px;
     border-style: solid;
+    box-shadow: 10px 10px 10px 2px alpha(black, 0.6);
+}
+
+.window-border:backdrop {
+    box-shadow: 7px 7px 7px 1px alpha(black, 0.6);
 }
 
 .window-outer-border {
     border-color: transparent;
-    border-radius: 10px;
-    border-width: 10px;
+    border-radius: 22px;
+    border-width: 22px;
     border-style: solid;
 }
 
